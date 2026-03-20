@@ -1,4 +1,4 @@
-use sqlx::{PgPool, Error, postgres::PgRow, Row};
+use sqlx::{PgPool, Error};
 use uuid::Uuid;
 use crate::models::{Movie, CreateMovie, UpdateMovie, User};
 
